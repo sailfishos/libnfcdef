@@ -1,0 +1,25 @@
+NDEF_1.0.0 {
+global:
+    ndef_log;
+    ndef_rec_get_type;
+    ndef_rec_new;
+    ndef_rec_new_mediatype;
+    ndef_rec_new_from_tlv;
+    ndef_rec_ref;
+    ndef_rec_sp_get_type;
+    ndef_rec_sp_new;
+    ndef_rec_t_get_type;
+    ndef_rec_t_lang_compare;
+    ndef_rec_t_lang_match;
+    ndef_rec_t_new_enc;
+    ndef_rec_u_get_type;
+    ndef_rec_u_new;
+    ndef_rec_unref;
+    ndef_system_language;
+    ndef_tlv_check;
+    ndef_tlv_next;
+    ndef_valid_mediatype;
+    ndef_valid_mediatype_str;
+local:
+    *;
+};

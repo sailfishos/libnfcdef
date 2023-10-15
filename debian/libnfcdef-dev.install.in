@@ -1,0 +1,3 @@
+debian/tmp/@LIBDIR@/libnfcdef.so @LIBDIR@
+debian/tmp/@LIBDIR@/pkgconfig/libnfcdef.pc @LIBDIR@/pkgconfig
+debian/tmp/usr/include/* usr/include

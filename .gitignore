@@ -1,0 +1,13 @@
+*~
+debian/files
+debian/libnfcdef
+debian/libnfcdef-dev
+debian/*.debhelper.log
+debian/*.debhelper
+debian/*.install
+debian/*.substvars
+debian/tmp
+documentation.list
+installroot
+build
+RPMS

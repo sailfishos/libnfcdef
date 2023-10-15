@@ -1,0 +1,12 @@
+libnfcdef
+=========
+
+Library for parsing and building NFC Data Exchange Format (NDEF)
+messages.
+
+The NFC Data Exchange Format (NDEF) is a common data format used for
+exchanging data between NFC devices and NFC tags, or between two NFC
+devices.
+
+libnfcdef supports Media-Type records and a few common well known types:
+Text ("T"), URI ("U") and SmartPoster ("Sp") 
