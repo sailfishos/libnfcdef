@@ -1,3 +1,9 @@
+libnfcdef (1.0.1) unstable; urgency=low
+
+  * Silence coverity warning
+
+ -- Slava Monich <slava@monich.com>  Sun, 29 Dec 2024 00:59:41 +0200
+
 libnfcdef (1.0.0) unstable; urgency=low
 
   * Initial release
