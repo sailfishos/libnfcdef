@@ -11,3 +11,5 @@ documentation.list
 installroot
 build
 RPMS
+unit/coverage/*.gcov
+unit/coverage/report
