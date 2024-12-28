@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2023 Slava Monich <slava@monich.com>
+ * Copyright (C) 2018-2024 Slava Monich <slava@monich.com>
  * Copyright (C) 2018 Jolla Ltd.
  *
  * You may use this file under the terms of the BSD license as follows:
@@ -83,7 +83,7 @@ ndef_tlv_next(
                     /* Three consecutive bytes format */
                     if (buf->size > 3) {
                         /* Big endian */
-                        len = (((guint)buf->bytes[2]) << 8) | buf->bytes[3];
+                        len = GUINT16_FROM_BE(*(guint16*)(buf->bytes + 2));
                         lsize = 3;
                     } else {
                         return 0;
