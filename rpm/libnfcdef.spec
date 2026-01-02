@@ -1,6 +1,6 @@
 Name: libnfcdef
 
-Version: 1.0.1
+Version: 1.1.0
 Release: 0
 Summary: Library for parsing and building NDEF messages
 License: BSD

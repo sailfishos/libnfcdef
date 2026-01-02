@@ -52,8 +52,8 @@
  */
 
 #define NDEF_VERSION_MAJOR 1
-#define NDEF_VERSION_MINOR 0
-#define NDEF_VERSION_RELEASE 1
+#define NDEF_VERSION_MINOR 1
+#define NDEF_VERSION_RELEASE 0
 
 #define NDEF_VERSION_WORD(v1,v2,v3) \
     ((((v1) & 0x7f) << 24) | \
@@ -71,6 +71,7 @@
 /* Specific versions */
 #define NDEF_VERSION_1_0_0 NDEF_VERSION_WORD(1,0,0)
 #define NDEF_VERSION_1_0_1 NDEF_VERSION_WORD(1,0,1)
+#define NDEF_VERSION_1_1_0 NDEF_VERSION_WORD(1,1,0)
 
 #endif /* NDEF_VERSION_H */
 
